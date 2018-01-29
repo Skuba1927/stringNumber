@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="333f9ee7-01fe-4cd3-a90b-addc9e61bb07" name="Default" comment="" />
+    <list default="true" id="333f9ee7-01fe-4cd3-a90b-addc9e61bb07" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/application/models/StringLang.php" afterPath="$PROJECT_DIR$/application/models/StringLang.php" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,11 +26,6 @@
         <item name="" type="eadb38e5:DatabaseStructure$Root" />
         <item name="language@localhost" type="e3449647:DbNodeDescriptor" />
       </path>
-      <path>
-        <item name="" type="eadb38e5:DatabaseStructure$Root" />
-        <item name="language@localhost" type="e3449647:DbNodeDescriptor" />
-        <item name="language" type="e3449647:DbNodeDescriptor" />
-      </path>
     </expand>
     <select />
   </component>
@@ -35,7 +34,7 @@
       <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
+            <state relative-caret-position="627">
               <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
               <folding />
             </state>
@@ -55,7 +54,7 @@
       <file leaf-file-name="welcome_message.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
+            <state relative-caret-position="2268">
               <caret line="108" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="117" selection-end-column="7" />
               <folding />
             </state>
@@ -65,18 +64,18 @@
       <file leaf-file-name="StringLang.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/application/models/StringLang.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="367">
-              <caret line="82" column="38" lean-forward="true" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+            <state relative-caret-position="430">
+              <caret line="286" column="0" lean-forward="true" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
               <folding>
-                <marker date="1516782529289" expanded="true" signature="3580:3687" ph="SELECT word cent" />
-                <marker date="1516782529289" expanded="true" signature="4295:4320" ph="SELECT word currency" />
-                <marker date="1516782529289" expanded="true" signature="4295:4370" ph="SELECT word currency" />
-                <marker date="1516782529289" expanded="true" signature="4295:4371" ph="SELECT word currency" />
-                <marker date="1516782529289" expanded="true" signature="4295:4394" ph="SELECT word currency" />
-                <marker date="1516782529289" expanded="true" signature="4295:4405" ph="SELECT word currency" />
-                <marker date="1516782529289" expanded="true" signature="4685:4736" ph="SELECT * FRO... ${$this-&gt;stringLang}" />
-                <marker date="1516782529289" expanded="true" signature="4853:4996" ph="SELECT strin... ${$this-&gt;stringLang}" />
-                <marker date="1516782529289" expanded="true" signature="9208:9286" ph="SELECT strin... ${$this-&gt;stringLang}" />
+                <marker date="1516951217980" expanded="true" signature="3580:3687" ph="SELECT word cent" />
+                <marker date="1516951217980" expanded="true" signature="4295:4320" ph="SELECT word currency" />
+                <marker date="1516951217980" expanded="true" signature="4295:4370" ph="SELECT word currency" />
+                <marker date="1516951217980" expanded="true" signature="4295:4371" ph="SELECT word currency" />
+                <marker date="1516951217980" expanded="true" signature="4295:4394" ph="SELECT word currency" />
+                <marker date="1516951217980" expanded="true" signature="4295:4405" ph="SELECT word currency" />
+                <marker date="1516951217980" expanded="true" signature="4685:4736" ph="SELECT * FRO... ${$this-&gt;stringLang}" />
+                <marker date="1516951217980" expanded="true" signature="4853:4996" ph="SELECT strin... ${$this-&gt;stringLang}" />
+                <marker date="1516951217980" expanded="true" signature="9372:9450" ph="SELECT strin... ${$this-&gt;stringLang}" />
               </folding>
             </state>
           </provider>
@@ -156,7 +155,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -168,10 +166,11 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
@@ -216,17 +215,19 @@
       <workItem from="1516604789394" duration="3483000" />
       <workItem from="1516616152503" duration="12496000" />
       <workItem from="1516690537257" duration="8967000" />
-      <workItem from="1516777076977" duration="6516000" />
+      <workItem from="1516777076977" duration="8808000" />
+      <workItem from="1516788294958" duration="1419000" />
+      <workItem from="1516950691353" duration="1732000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101215000" />
+    <option name="totallyTimeSpent" value="106658000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1260745" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.12893982" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="PHP-CGI Server" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -234,7 +235,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32914925" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -264,15 +265,15 @@
         <state relative-caret-position="1281">
           <caret line="61" column="26" lean-forward="false" selection-start-line="61" selection-start-column="26" selection-end-line="61" selection-end-column="26" />
           <folding>
-            <marker date="1516782529289" expanded="true" signature="3580:3687" ph="SELECT word cent" />
-            <marker date="1516782529289" expanded="true" signature="4295:4320" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4295:4370" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4295:4371" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4295:4394" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4295:4405" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4685:4736" ph="SELECT * FRO... ${$this-&gt;stringLang}" />
-            <marker date="1516782529289" expanded="true" signature="4853:4996" ph="SELECT strin... ${$this-&gt;stringLang}" />
-            <marker date="1516782529289" expanded="true" signature="9208:9286" ph="SELECT strin... ${$this-&gt;stringLang}" />
+            <marker date="1516951217980" expanded="true" signature="3580:3687" ph="SELECT word cent" />
+            <marker date="1516951217980" expanded="true" signature="4295:4320" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4295:4370" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4295:4371" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4295:4394" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4295:4405" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4685:4736" ph="SELECT * FRO... ${$this-&gt;stringLang}" />
+            <marker date="1516951217980" expanded="true" signature="4853:4996" ph="SELECT strin... ${$this-&gt;stringLang}" />
+            <marker date="1516951217980" expanded="true" signature="9372:9450" ph="SELECT strin... ${$this-&gt;stringLang}" />
           </folding>
         </state>
       </provider>
@@ -306,15 +307,15 @@
         <state relative-caret-position="1344">
           <caret line="64" column="8" lean-forward="false" selection-start-line="64" selection-start-column="8" selection-end-line="64" selection-end-column="8" />
           <folding>
-            <marker date="1516782529289" expanded="true" signature="3580:3687" ph="SELECT word cent" />
-            <marker date="1516782529289" expanded="true" signature="4295:4320" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4295:4370" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4295:4371" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4295:4394" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4295:4405" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4685:4736" ph="SELECT * FRO... ${$this-&gt;stringLang}" />
-            <marker date="1516782529289" expanded="true" signature="4853:4996" ph="SELECT strin... ${$this-&gt;stringLang}" />
-            <marker date="1516782529289" expanded="true" signature="9208:9286" ph="SELECT strin... ${$this-&gt;stringLang}" />
+            <marker date="1516951217980" expanded="true" signature="3580:3687" ph="SELECT word cent" />
+            <marker date="1516951217980" expanded="true" signature="4295:4320" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4295:4370" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4295:4371" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4295:4394" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4295:4405" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4685:4736" ph="SELECT * FRO... ${$this-&gt;stringLang}" />
+            <marker date="1516951217980" expanded="true" signature="4853:4996" ph="SELECT strin... ${$this-&gt;stringLang}" />
+            <marker date="1516951217980" expanded="true" signature="9372:9450" ph="SELECT strin... ${$this-&gt;stringLang}" />
           </folding>
         </state>
       </provider>
@@ -593,14 +594,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="das://table:/4e873087/dd50e86b-c6bf-46ce-b1c8-f9850d13273e/language.centua">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -631,7 +624,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/welcome_message.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
+        <state relative-caret-position="2268">
           <caret line="108" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="117" selection-end-column="7" />
           <folding />
         </state>
@@ -644,20 +637,28 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="627">
+          <caret line="56" column="0" lean-forward="false" selection-start-line="56" selection-start-column="0" selection-end-line="56" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/application/models/StringLang.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="367">
-          <caret line="82" column="38" lean-forward="true" selection-start-line="82" selection-start-column="38" selection-end-line="82" selection-end-column="38" />
+        <state relative-caret-position="430">
+          <caret line="286" column="0" lean-forward="true" selection-start-line="286" selection-start-column="0" selection-end-line="286" selection-end-column="0" />
           <folding>
-            <marker date="1516782529289" expanded="true" signature="3580:3687" ph="SELECT word cent" />
-            <marker date="1516782529289" expanded="true" signature="4295:4320" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4295:4370" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4295:4371" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4295:4394" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4295:4405" ph="SELECT word currency" />
-            <marker date="1516782529289" expanded="true" signature="4685:4736" ph="SELECT * FRO... ${$this-&gt;stringLang}" />
-            <marker date="1516782529289" expanded="true" signature="4853:4996" ph="SELECT strin... ${$this-&gt;stringLang}" />
-            <marker date="1516782529289" expanded="true" signature="9208:9286" ph="SELECT strin... ${$this-&gt;stringLang}" />
+            <marker date="1516951217980" expanded="true" signature="3580:3687" ph="SELECT word cent" />
+            <marker date="1516951217980" expanded="true" signature="4295:4320" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4295:4370" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4295:4371" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4295:4394" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4295:4405" ph="SELECT word currency" />
+            <marker date="1516951217980" expanded="true" signature="4685:4736" ph="SELECT * FRO... ${$this-&gt;stringLang}" />
+            <marker date="1516951217980" expanded="true" signature="4853:4996" ph="SELECT strin... ${$this-&gt;stringLang}" />
+            <marker date="1516951217980" expanded="true" signature="9372:9450" ph="SELECT strin... ${$this-&gt;stringLang}" />
           </folding>
         </state>
       </provider>

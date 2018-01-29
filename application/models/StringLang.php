@@ -220,10 +220,14 @@ class StringLang extends CI_Model
                 $firstPart = "error getStringAmountDigit3";
             }
         }
-        if ($this->checkRightNumbers($tens)) {
-            $secondPart = $this->checkRightNumbers($tens);
+        if ($tens == 0) {
+            $secondPart = '';
         } else {
-            $secondPart = $this->getStringAmountDigit2($tens);
+            if ($this->checkRightNumbers($tens)) {
+                $secondPart = $this->checkRightNumbers($tens);
+            } else {
+                $secondPart = $this->getStringAmountDigit2($tens);
+            }
         }
 
         return $firstPart." ".$secondPart;
@@ -242,6 +246,9 @@ class StringLang extends CI_Model
 
     private function getThousand($amount, $value)
     {
+        if ($amount == 0) {
+            return '';
+        }
         if ($this->checkRightNumbers($amount)) {
             if ($value == 1000) {
                 $this->currencyStatus = 3;
